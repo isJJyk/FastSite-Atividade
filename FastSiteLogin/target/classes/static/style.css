@@ -1,0 +1,42 @@
+body {
+    background: black;
+    color: #000;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-block {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px 35px;
+}
+
+.login-block h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.login-block form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+}
+
+.login-block label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.mensagem-erro {
+    color: #d93025;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
